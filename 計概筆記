@@ -1,0 +1,53 @@
+Linux 常用指令
+
+cd 變換目錄
+pwd 顯示目前所在位置
+ls 顯示目錄下所有檔案
+touch 建立檔案
+cp 複製
+cat 查看檔案內容
+vi/vim 編輯檔案
+mkdir 建立新目錄
+rmdir 刪除空目錄
+rm 刪除檔案
+rm -r強制刪除
+mv 移動/重新命名
+
+chown 修改檔案或目錄的擁有者及群組
+chmod 可控制檔案如何被他人調用
+r = 4 =可讀取
+w = 2 =可寫入
+x = 0 =可執行
+
+在vim 裡面
+i 進入 編輯模式
+Esc 退出編輯模式
+：w存檔
+：wq 存檔後離開
+：q! 強制離開
+
+壓縮檔案
+gzip Filename
+解壓縮檔案
+gunzip Filename.gz
+gzip -d FileName.gz
+
+檔案搜尋
+find - size/name/type/user
+cat -n 行數編號
+cat file1 >file2 
+把file1檔案內容加上行號輸入file2
+
+head -n 取出前面n 行
+
+tail -n 取出後面n 行
+tail -n +20 只取20行後的內容
+
+tail -n +11 a.txt | head -n 10
+11～20行的內容
+
+網路相關指令
+netstat 
+ping 
+route
+
